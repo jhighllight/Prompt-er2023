@@ -1,4 +1,4 @@
-<img width="575" alt="스크린샷 2023-09-03 오후 9 30 44" src="https://github.com/jhighllight/Prompt-er2023/assets/106941983/92c2eeb0-36e0-4718-a8a4-2f64bb318e6a">
+<img width="575" alt="스크린샷 2023-09-03 오후 9 30 44" src="https://github.com/jhighllight/Prompt-er2023/assets/106941983/5dd21046-fb1c-48e7-8162-535d7d83f797">
 
 
 # Prompt-er2023
@@ -71,10 +71,9 @@ Generative AI 전문가 혹은 AI 서비스 기획 및 개발에 관심이 있�
 4. 실시간 업데이트 및 통합 : 서비스를 실시간으로 업데이트하고 다른 연구 도구 및 플랫폼과 통합하여 사용자의 작업을 편리하게 합니다.
 
 
-
-<img width="661" alt="스크린샷 2023-09-03 오후 9 32 20" src="https://github.com/jhighllight/Prompt-er2023/assets/106941983/65841c9a-2f35-4096-ab08-883c67467443">
-<img width="585" alt="스크린샷 2023-09-03 오후 9 32 35" src="https://github.com/jhighllight/Prompt-er2023/assets/106941983/7a7e257d-5379-4418-9275-4183a25c091a">
-<img width="290" alt="스크린샷 2023-09-03 오후 9 32 48" src="https://github.com/jhighllight/Prompt-er2023/assets/106941983/013b13c3-2586-422b-9771-192535965f73">
+<img width="661" alt="스크린샷 2023-09-03 오후 9 32 20" src="https://github.com/jhighllight/Prompt-er2023/assets/106941983/d8f1e649-a1bb-4c6e-93df-efe2cd363e39">
+<img width="585" alt="스크린샷 2023-09-03 오후 9 32 35" src="https://github.com/jhighllight/Prompt-er2023/assets/106941983/dc0b4003-c879-4d70-bdcd-fe93479e1297">
+<img width="290" alt="스크린샷 2023-09-03 오후 9 32 48" src="https://github.com/jhighllight/Prompt-er2023/assets/106941983/e606dad4-f5b4-46fb-8448-c12fee7e7fd1">
 
 
 ---
