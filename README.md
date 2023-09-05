@@ -81,25 +81,43 @@ Generative AI 전문가 혹은 AI 서비스 기획 및 개발에 관심이 있�
 
 ‘ScientificResearchAssistant’라는 클래스를 정의하고, 이를 사용하여 사용자와 대화하는 인터페이스를 제공하는 코드입니다. 아래는 코드의 주요 부분 설명입니다.
 
-(1) 라이브러리 임포트
+
+#### (1) 라이브러리 임포트
+
+
 ‘openai’ 라이브러리를 설치하고, 임포트합니다. 해당 라이브러리로 OpenAI GPT-3.5-Turbo 모델을 사용할 수 있습니다.
 
 
-(2) ‘ScientificResearchAssistant’ 클래스 정의
+
+#### (2) ‘ScientificResearchAssistant’ 클래스 정의
+
+
 클래스를 정의하여 OpenAI GPT-3.5-Turbo 모델을 사용하여 과학적 가설을 제안하고, 실험 계획을 수립하는 기능을 제공합니다.
 
 
-(3) 클래스 초기화 함수
+
+#### (3) 클래스 초기화 함수
+
+
 클래스를 초기화할 때, 필요한 변수들을 설정합니다. 이에는 OpenAI API key, 사용할 모델 이름, 최대 토큰 수, 모델의 출력 다양성을 조절하는 온도 값이 포함됩니다. 해당 코드에서는 최대 토큰 수를 1,000 으로 설정하여 서비스 이용자에게 풍부한 자료를 제공하고, 온도 값을 0.2 로 낮게 설정하여 정형화된 결과를 도출해야하는 과학 논문의 특성을 고려했습니다.
 
 
-(4) _generate_chat_completion 함수
+
+#### (4) _generate_chat_completion 함수
+
+
 내부 함수는 OpenAI API 를 사용하여 채팅 완성을 생성합니다. 주어진 프롬프트를 기반으로 GPT-3.5-Turbo 모델을 사용하여 응답을 생성합니다. 대화는 "system", "user", "assistant" 역할을 가진 메시지로 구성됩니다. "system" 메시지는 모델에 대한 설명을 포함하고, "user" 메시지에는 사용자의 입력이 포함됩니다. "assistant" 메시지에는 모델이 추가 정보를 요청하는 내용이 포함됩니다.
 
 
-(5) suggest_hypothesis 및 plan_experiment 함수
+
+#### (5) suggest_hypothesis 및 plan_experiment 함수
+
+
 두 함수는 각각 과학적 가설을 제안하고, 실험 계획을 수립하는 데 사용됩니다. 함수는 ‘_generate_chat_completion’ 함수를 사용하여 GPT-3.5-Turbo 모델로부터 응답을 받습니다. suggest_hypothesis 메서드는 초기 아이디어를 받아들여, 해당 아이디어를 기반으로 과학적인 가설을 제안합니다. _generate_chat_completion 메서드를 호출하여 모델에 대한 요청을 처리하고, 제안된 가설을 반환합니다.
 
 
-(6) chatbot_interface 함수
+
+#### (6) chatbot_interface 함수
+
+
 사용자와 대화하는 인터페이스를 제공합니다. 사용자는 가설을 정립하거나 연구 계획을 수립하는 옵션을 선택할 수 있습니다. 선택된 작업에 따라 어시스턴트 클래스의 메서드를 호출하여 결과를 표시합니다.
